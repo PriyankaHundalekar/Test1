@@ -4,9 +4,11 @@ echo "Enter the lastname :"
 read lastname
 pat="[A-Z]"
 
-if [[ $lastname == $pat ]]
-then 
-	echo yes
+if [[ $username == $pat ]]
+then
+        echo yes
 else
-	echo no
+        echo no
 fi
+
+
